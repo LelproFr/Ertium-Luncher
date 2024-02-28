@@ -5,7 +5,7 @@
     "description": "Launcher Mincraft pour le serveur Ertium",
     "main": "src/app.js",
     "author": {
-        "name": "luuxis,Ertium, LelproFr, Inc.",
+        "name": "luuxis,Ertium,Inc.",
         "email": "contact@luuxis.fr",
         "url": "https://github.com/luuxis"
     },
@@ -30,7 +30,7 @@
     },
     "devDependencies": {
         "cross-env": "^7.0.3",
-        "electron": "^27.0.4",
+        "electron": "^27.3.3",
         "electron-builder": "^24.6.4",
         "javascript-obfuscator": "^4.1.0",
         "jimp": "^0.22.10",
