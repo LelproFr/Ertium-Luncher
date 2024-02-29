@@ -9,7 +9,7 @@
         "email": "contact@luuxis.fr",
         "url": "https://github.com/luuxis"
     },
-    "url": "http://ertium-beta.rf.gd",
+    "url": " http://ww01.rf.gd/?pid=9POT3387I&pbsubid=d29cdd74-41b7-4db2-befa-148e958d9356&noads=http%3A%2F%2Fww01.rf.gd%2F%3Fskipskenzo%3Dtrue",
     "scripts": {
         "start": "cross-env-shell NODE_ENV=dev electron .",
         "dev": "cross-env-shell DEV_TOOL=open nodemon --exec npm start",
