@@ -1,20 +1,20 @@
 {
-    "name": "Ertium-Launcher",
-    "preductname": "Ertium Launcher",
-    "version": "0.0.1",
-    "description": "Launcher Mincraft pour le serveur Ertium",
+    "name": "Selvania-Launcher",
+    "preductname": "Selvania Launcher",
+    "version": "2.0.7",
+    "description": "Launcher Mincraft pour le serveur Selvania",
     "main": "src/app.js",
     "author": {
-        "name": "luuxis,Ertium,Inc.",
+        "name": "luuxis, Inc.",
         "email": "contact@luuxis.fr",
         "url": "https://github.com/luuxis"
     },
-    "url": " http://ww01.rf.gd/?pid=9POT3387I&pbsubid=d29cdd74-41b7-4db2-befa-148e958d9356&noads=http%3A%2F%2Fww01.rf.gd%2F%3Fskipskenzo%3Dtrue",
+    "url": "http://launcher.luuxis.fr",
     "scripts": {
         "start": "cross-env-shell NODE_ENV=dev electron .",
         "dev": "cross-env-shell DEV_TOOL=open nodemon --exec npm start",
-        "build": "node build.js --obf=false --build=platform",
-        "icon": "node build.js --icon=https://ibb.co/PM5cx1P"
+        "build": "node build.js --obf=true --build=platform",
+        "icon": "node build.js --icon=https://raw.githubusercontent.com/luuxis/Selvania-Launcher/master/src/assets/images/icon.png"
     },
     "license": "CCANC",
     "nodemonConfig": {
@@ -22,23 +22,23 @@
         "ignore": "**/test"
     },
     "dependencies": {
-        "electron-updater": "^6.1.4",
-        "minecraft-java-core": "^3.8.1",
-        "node-bdd": "^2.0.3",
+        "electron-updater": "^6.1.8",
+        "minecraft-java-core": "^3.10.4",
+        "node-bdd": "^2.0.4",
         "node-fetch": "^2.7.0",
         "xml-js": "^1.6.11"
     },
     "devDependencies": {
         "cross-env": "^7.0.3",
-        "electron": "^27.3.3",
-        "electron-builder": "^24.6.4",
+        "electron": "^30.0.9",
+        "electron-builder": "^24.13.3",
         "javascript-obfuscator": "^4.1.0",
-        "jimp": "^0.22.10",
-        "nodemon": "^3.0.1",
+        "jimp": "^0.22.12",
+        "nodemon": "^3.1.2",
         "png2icons": "^2.0.1"
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/LelproFr/Ertium-Luncher.git"
+        "url": "git+https://github.com/luuxis/Selvania-Launcher.git"
     }
 }
